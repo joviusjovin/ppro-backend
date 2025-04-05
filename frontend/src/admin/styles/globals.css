@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+/* Apply Open Sans to everything in the admin section */
+.admin-layout {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Optional: Specific font weights for different elements */
+.admin-layout h1, 
+.admin-layout h2, 
+.admin-layout h3, 
+.admin-layout h4, 
+.admin-layout h5, 
+.admin-layout h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.admin-layout p, 
+.admin-layout span, 
+.admin-layout div {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.admin-layout button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+}
+
+.admin-layout input,
+.admin-layout textarea,
+.admin-layout select {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+} 

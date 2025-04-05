@@ -1,0 +1,325 @@
+{
+    "regions": [
+      {
+        "name": "Arusha",
+        "districts": [
+          "Arumeru",
+          "Arusha",
+          "Arusha CBD",
+          "Karatu",
+          "Longido",
+          "Monduli",
+          "Ngorongoro"
+        ]
+      },
+      {
+        "name": "Dar Es Salaam",
+        "districts": [
+          "Ilala",
+          "Ilala CBD",
+          "Kigamboni",
+          "Kinondoni",
+          "Temeke",
+          "Ubungo"
+        ]
+      },
+      {
+        "name": "Dodoma",
+        "districts": [
+          "Bahi",
+          "Chamwino",
+          "Chemba",
+          "Dodoma",
+          "Dodoma CBD",
+          "Kondoa",
+          "Kongwa",
+          "Mpwapwa"
+        ]
+      },
+      {
+        "name": "Geita",
+        "districts": [
+          "Bukombe",
+          "Chato",
+          "Geita",
+          "Mbogwe"
+        ]
+      },
+      {
+        "name": "Iringa",
+        "districts": [
+          "Iringa",
+          "Iringa CBD",
+          "Kilolo",
+          "Mufindi"
+        ]
+      },
+      {
+        "name": "Kagera",
+        "districts": [
+          "Biharamulo",
+          "Bukoba",
+          "Bukoba CBD",
+          "Karagwe",
+          "Kyerwa",
+          "Missenyi",
+          "Muleba",
+          "Ngara"
+        ]
+      },
+      {
+        "name": "Katavi",
+        "districts": [
+          "Mlele",
+          "Mpanda CBD",
+          "Tanganyika"
+        ]
+      },
+      {
+        "name": "Kigoma",
+        "districts": [
+          "Buhigwe",
+          "Kakonko",
+          "Kasulu",
+          "Kibondo",
+          "Kigoma",
+          "Kigoma CBD",
+          "Uvinza"
+        ]
+      },
+      {
+        "name": "Kilimanjaro",
+        "districts": [
+          "Hai",
+          "Moshi",
+          "Moshi CBD",
+          "Mwanga",
+          "Rombo",
+          "Same",
+          "Siha"
+        ]
+      },
+      {
+        "name": "Lindi",
+        "districts": [
+          "Kilwa",
+          "Lindi",
+          "Lindi CBD",
+          "Liwale",
+          "Nachingwea",
+          "Ruangwa"
+        ]
+      },
+      {
+        "name": "Manyara",
+        "districts": [
+          "Babati",
+          "Babati CBD",
+          "Hanang",
+          "Kiteto",
+          "Mbulu",
+          "Simanjiro"
+        ]
+      },
+      {
+        "name": "Mara",
+        "districts": [
+          "Bunda",
+          "Butiama",
+          "Musoma CBD",
+          "Rorya",
+          "Serengeti",
+          "Tarime"
+        ]
+      },
+      {
+        "name": "Mbeya",
+        "districts": [
+          "Chunya",
+          "Kyela",
+          "Mbarali",
+          "Mbeya",
+          "Mbeya CBD",
+          "Rungwe"
+        ]
+      },
+      {
+        "name": "Mjini Magharibi",
+        "districts": [
+          "Magharibi",
+          "Mjini"
+        ]
+      },
+      {
+        "name": "Morogoro",
+        "districts": [
+          "Gairo",
+          "Kilombero",
+          "Kilosa",
+          "Malinyi",
+          "Morogoro",
+          "Morogoro CBD",
+          "Mvomero",
+          "Ulanga"
+        ]
+      },
+      {
+        "name": "Mtwara",
+        "districts": [
+          "Masasi",
+          "Mtwara",
+          "Mtwara CBD",
+          "Nanyumbu",
+          "Newala",
+          "Tandahimba"
+        ]
+      },
+      {
+        "name": "Mwanza",
+        "districts": [
+          "Ilemela",
+          "Kwimba",
+          "Magu",
+          "Misungwi",
+          "Nyamagana",
+          "Sengerema",
+          "Ukerewe"
+        ]
+      },
+      {
+        "name": "Njombe",
+        "districts": [
+          "Ludewa",
+          "Makete",
+          "Njombe",
+          "Njombe CBD"
+        ]
+      },
+      {
+        "name": "Pemba North",
+        "districts": [
+          "Micheweni",
+          "Wete"
+        ]
+      },
+      {
+        "name": "Pemba South",
+        "districts": [
+          "Chake Chake",
+          "Mkoani"
+        ]
+      },
+      {
+        "name": "Pwani",
+        "districts": [
+          "Bagamoyo",
+          "Kibaha",
+          "Kibaha CBD",
+          "Kibiti",
+          "Kisarawe",
+          "Mafia",
+          "Mkuranga",
+          "Rufiji"
+        ]
+      },
+      {
+        "name": "Rukwa",
+        "districts": [
+          "Kalambo",
+          "Nkasi",
+          "Sumbawanga",
+          "Sumbawanga CBD"
+        ]
+      },
+      {
+        "name": "Ruvuma",
+        "districts": [
+          "Mbinga",
+          "Namtumbo",
+          "Nyasa",
+          "Songea",
+          "Songea CBD",
+          "Tunduru"
+        ]
+      },
+      {
+        "name": "Shinyanga",
+        "districts": [
+          "Kahama",
+          "Kishapu",
+          "Shinyanga",
+          "Shinyanga CBD"
+        ]
+      },
+      {
+        "name": "Simiyu",
+        "districts": [
+          "Bariadi",
+          "Busega",
+          "Itilima",
+          "Maswa",
+          "Meatu"
+        ]
+      },
+      {
+        "name": "Singida",
+        "districts": [
+          "Ikungi",
+          "Iramba",
+          "Manyoni",
+          "Mkalama",
+          "Singida",
+          "Singida CBD"
+        ]
+      },
+      {
+        "name": "Songwe",
+        "districts": [
+          "Ileje",
+          "Mbozi",
+          "Momba",
+          "Songwe"
+        ]
+      },
+      {
+        "name": "Tabora",
+        "districts": [
+          "Igunga",
+          "Kaliua",
+          "Nzega",
+          "Sikonge",
+          "Tabora CBD",
+          "Urambo",
+          "Uyui"
+        ]
+      },
+      {
+        "name": "Tanga",
+        "districts": [
+          "Handeni",
+          "Kilindi",
+          "Korogwe",
+          "Lushoto",
+          "Mkinga",
+          "Muheza",
+          "Pangani",
+          "Tanga",
+          "Tanga CBD"
+        ]
+      },
+      {
+        "name": "Unguja North",
+        "districts": [
+          "Kaskazini A",
+          "Kaskazini B"
+        ]
+      },
+      {
+        "name": "Unguja South",
+        "districts": [
+          "Kati",
+          "Kusini"
+        ]
+      }
+    ]
+  }
