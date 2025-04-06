@@ -760,68 +760,87 @@ const PatientRecords: React.FC = () => {
 
       {/* Print Card Template */}
       {showPrintCard && selectedPatient && (
-        <div className="patient-card fixed left-0 top-0 w-[85.5mm] h-[54mm] bg-white shadow-lg overflow-hidden">
-          {/* Header */}
-          <div className="bg-gradient-to-r from-rose-600 to-rose-700 px-3 py-2">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-2">
-                <div className="bg-white p-1 rounded-full">
-                  <FaTooth className="w-4 h-4 text-rose-600" />
-                </div>
-                <div>
-                  <h1 className="text-white font-bold text-sm">Dental Care</h1>
-                  <p className="text-rose-100 text-[10px]">Health Program</p>
-                </div>
+        <div className="patient-card fixed left-0 top-0 w-[85.5mm] h-[54mm]">
+          {/* Main card container */}
+          <div className="relative w-full h-full bg-gradient-to-br from-rose-50 to-white border-2 border-rose-200 rounded-xl overflow-hidden">
+            {/* Top decorative strip */}
+            <div className="absolute top-0 left-0 right-0 h-7 bg-gradient-to-r from-rose-600 to-rose-700" />
+            
+            {/* Logo and Organization Name */}
+            <div className="relative z-10 flex items-center gap-3 px-4 pt-4">
+              <div className="bg-white p-1.5 rounded-full shadow-md">
+                <FaTooth className="w-5 h-5 text-rose-600" />
               </div>
-              <div className="bg-rose-800/80 px-2 py-0.5 rounded">
-                <span className="text-white text-[10px] font-medium">
-                  PATIENT CARD
+              <div>
+                <h1 className="text-gray-900 font-bold text-lg tracking-wide">DENTAL CARE</h1>
+                <p className="text-rose-600 text-xs font-medium -mt-1">Health Program</p>
+              </div>
+            </div>
+
+            {/* Card Type Badge */}
+            <div className="absolute top-4 right-4 bg-rose-600 px-3 py-1 rounded-full shadow-sm">
+              <span className="text-white text-xs font-semibold">
+                PATIENT CARD
+              </span>
+            </div>
+
+            {/* Patient Information */}
+            <div className="mt-6 px-4 space-y-3">
+              {/* ID Number */}
+              <div className="flex justify-between items-center">
+                <span className="text-rose-600 text-xs font-semibold">ID NUMBER</span>
+                <span className="text-gray-800 font-mono text-sm font-bold tracking-wider">
+                  {selectedPatient.patientId}
+                </span>
+              </div>
+
+              {/* Divider */}
+              <div className="border-b border-rose-200" />
+
+              {/* Name */}
+              <div>
+                <span className="text-rose-600 text-xs font-semibold block mb-1">FULL NAME</span>
+                <span className="text-gray-900 text-base font-semibold block">
+                  {selectedPatient.firstName} {selectedPatient.lastName}
+                </span>
+              </div>
+
+              {/* Address */}
+              <div>
+                <span className="text-rose-600 text-xs font-semibold block mb-1">ADDRESS</span>
+                <span className="text-gray-700 text-sm block leading-tight">
+                  {selectedPatient.address}
                 </span>
               </div>
             </div>
-          </div>
-
-          {/* Content */}
-          <div className="p-3 space-y-2">
-            {/* ID Number */}
-            <div className="flex justify-between items-center">
-              <span className="text-rose-600 text-[10px] font-medium">ID NUMBER</span>
-              <span className="text-gray-800 text-xs font-mono font-bold">
-                {selectedPatient.patientId}
-              </span>
-            </div>
-
-            <div className="border-b border-rose-100" />
-
-            {/* Name */}
-            <div>
-              <span className="text-rose-600 text-[10px] font-medium block">NAME</span>
-              <span className="text-gray-800 text-sm font-medium">
-                {selectedPatient.firstName} {selectedPatient.lastName}
-              </span>
-            </div>
-
-            {/* Address */}
-            <div>
-              <span className="text-rose-600 text-[10px] font-medium block">ADDRESS</span>
-              <span className="text-gray-600 text-[11px] leading-tight block">
-                {selectedPatient.address}
-              </span>
-            </div>
 
             {/* Footer */}
-            <div className="absolute bottom-2 left-3 right-3">
+            <div className="absolute bottom-3 inset-x-4">
               <div className="flex justify-between items-center">
-                <div className="text-rose-600 text-[8px]">
-                  Issue Date: {new Date().toLocaleDateString()}
+                <div>
+                  <div className="text-rose-600 text-[10px] font-medium">
+                    Issue Date:
+                  </div>
+                  <div className="text-gray-600 text-[10px]">
+                    {new Date().toLocaleDateString()}
+                  </div>
                 </div>
-                <div className="bg-rose-600 px-2 py-0.5 rounded">
-                  <span className="text-white text-[10px] font-medium">
-                    DENTAL HEALTH
-                  </span>
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 bg-rose-600/10 rounded-full flex items-center justify-center">
+                    <FaTooth className="w-4 h-4 text-rose-600" />
+                  </div>
+                  <div className="text-right">
+                    <div className="text-rose-600 text-[10px] font-medium">Valid Until</div>
+                    <div className="text-gray-600 text-[10px]">
+                      {new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toLocaleDateString()}
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
+
+            {/* Bottom decorative strip */}
+            <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-rose-600 to-rose-700" />
           </div>
         </div>
       )}

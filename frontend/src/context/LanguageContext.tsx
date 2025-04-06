@@ -20,8 +20,179 @@ interface Translations {
   quickLinks: string;
   contactUs: string;
   followUs: string;
+  stayConnected: string;
+  allRightsReserved: string;
+  readMore: string;
+  viewAll: string;
+  loadMore: string;
+  subscribe: string;
+  search: string;
+  
+  // Organization Info
+  partnershipForPovertyReductionOrganisation: string;
+  masjidHaqqBuguruniDarEsSalaam: string;
+  organizationMotto: string;
+  donateNow: string;
+  volunteer: string;
+  joinUs: string;
+  
+  // Hero Section
+  heroTitle: string;
+  heroSubtitle: string;
+  exploreProjects: string;
+  learnMore: string;
+  ViewRegistration: string;
+  
+  // About Section
+  aboutTitle: string;
+  aboutDescription: string;
+  ourMission: string;
+  ourVision: string;
+  ourValues: string;
+  missionStatement: string;
+  visionStatement: string;
+  value: string;
+  government: string;
+  donors: string;
+  ngos: string;
+  individual: string;
+  ourValue: string;
+  valueStatement: string;
+  close: string;
+  
+  // Services Section
+  servicesTitle: string;
+  servicesDescription: string;
+  educationSupport: string;
+  healthcareAccess: string;
+  economicEmpowerment: string;
+  communityDevelopment: string;
+  skillsTraining: string;
+  waterSanitation: string;
+  waterSanitationDiscr: string;
+  websiteDevelopment: string;
+  charityServices: string;
+  digitalMarketing: string;
+  projectManagement: string;
+  designDevelopment: string;
+  consultancy: string;
+  websiteDevelopmentDiscr: string;
+  charityServicesDiscr: string;
+  digitalMarketingDiscr: string;
+  projectManagementDiscr: string;
+  designDevelopmentDiscr: string;
+  consultancyDiscr: string;
+  
+  // Projects Section
+  ourProjects: string;
+  bodabodaSmart: string;
+  charityService: string;
+  dropshipping: string;
+  individualororganisationDonation: string;
+  bodabodaSmartDiscr: string;
+  charityServiceDiscr: string;
+  dropshippingDiscr: string;
+  individualororganisationDonationDiscr: string;
+  leadershipCapacity: string;
+  leadershipCapacityDiscr: string;
+  seeMore: string;
+  addBikeRider: string;
+  environmentalConservation: string;
+  environmentalConservationDiscr: string;
+  
+  //bikerider
+  bodaInfo: string;
+  firstName: string;
+  middleName: string;
+  surName: string;
+  gender: string;
+  selectGender: string;
+  male: string;
+  female: string;
+  region: string;
+  selectRegion: string;
+  district: string;
+  selectDistrict: string;
+  ward: string;
+  village: string;
+  bikeStation: string;
+  bikeNumber: string;
+  license: string;
+  submit: string;
+  
+  //popup msg
+  failData: string;
+  dataSuccess: string;
+  licenseExists: string;
+  
+  // Form Messages
+  successData: string;
+  submitting: string;
+  registrationError: string;
+  licenseError: string;
+  
+  // Gallery Section
+  galleryi: string;
+  galleryDescription: string;
+  
+  // Impact Section
+  impactTitle: string;
+  impactDescription: string;
+  peopleHelped: string;
+  communitiesServed: string;
+  projectsCompleted: string;
+  volunteersEngaged: string;
+  
+  // News & Updates
+  newsTitle: string;
+  newsDescription: string;
+  latestNews: string;
+  pressReleases: string;
+  newsletters: string;
+  events: string;
+  
+  // Contact Section
+  contactTitle: string;
+  contactDescription: string;
+  name: string;
+  email: string;
+  phoneNumber: string;
+  subject: string;
+  message: string;
+  send: string;
+  address: string;
+  phone: string;
+  emailUs: string;
+  officeHours: string;
+  sendMessage: string;
+  contactFormTitle: string;
+  
+  // Form Placeholders
+  namePlaceholder: string;
+  emailPlaceholder: string;
+  subjectPlaceholder: string;
+  messagePlaceholder: string;
+  phonePlaceholder: string;
+  
+  // Footer
+  
+  testimonials: string;
+  impactReport: string;
+  annualReport: string;
+  privacyPolicy: string;
+  termsConditions: string;
+  contactInformation: string;
+  
+  // Success Messages
+  messageSent: string;
+  subscriptionSuccess: string;
+  donationSuccess: string;
+  
+  // Error Messages
+  errorMessage: string;
+  requiredField: string;
+  invalidEmail: string;
   invalidPhone: string;
-  // Add other keys as necessary
 }
 
 const translations = {
@@ -33,7 +204,7 @@ const translations = {
     projects: 'Projects',
     gallery: 'Gallery',
     contact: 'Contact',
-    getStarted: 'Get Started',
+    getStarted: 'Get Started with us',
     aboutUs: 'About Us',
     quickLinks: 'Quick Links',
     contactUs: 'Contact Us',
@@ -59,6 +230,7 @@ const translations = {
     heroSubtitle: '"Empowering Communities, Eradicating Poverty, Ensuring Equality."',
     exploreProjects: 'Explore Our Projects',
     learnMore: 'Learn More',
+    ViewRegistration: 'View Registration',
     
     // About Section
     aboutTitle: 'About Us',
@@ -73,7 +245,10 @@ const translations = {
     donors: 'Donors',
     ngos: 'Non-Governmental Organisations',
     individual: 'Individual',
-
+    ourValue: 'Value Statement',
+    valueStatement: 'Joining with Us',
+    close: 'Close',
+    
     // Services Section
     servicesTitle: 'Our Objectives',
     servicesDescription: 'Comprehensive solutions for your needs',
@@ -82,9 +257,10 @@ const translations = {
     economicEmpowerment: 'Economic Empowerment',
     communityDevelopment: 'Community Development',
     skillsTraining: 'Skills Training',
-    waterSanitation: 'Water & Sanitation',
+    waterSanitation: 'Advocates for Provision of Water and Services,Sanitation,Healthy and hygiene',
+    waterSanitationDiscr: 'Ensure communities have access to clean water and proper sanitation facilities. They promote healthy practices to prevent diseases and improve overall well-being. Their efforts include education, infrastructure development, and policy advocacy for sustainable solutions.',
     websiteDevelopment: 'Website Development',
-    charityServices: 'Dental health and hygiene', 
+    charityServices: 'Dental healthy and hygiene', 
     digitalMarketing: 'Rising awareness on environmental protection and preservation',
     projectManagement: 'Project Management',
     designDevelopment: 'Promote cultural growth and exchange',
@@ -98,6 +274,7 @@ const translations = {
     
     // Projects Section
     ourProjects: 'Our Projects',
+    ourProjectDiscr:'Understand the purpose of our project',
     bodabodaSmart: 'Bodaboda Smart',
     charityService: 'Charity Services',  
     dropshipping:'Access to clean water',
@@ -106,12 +283,12 @@ const translations = {
     charityServiceDiscr:'Providing dental treatment and distributing toothbrushes to six government schools in Lushoto district, Bumbuli Council',
     dropshippingDiscr:'Purchase water equipment, for access to clean water at the secondary school and the Kwenguruwe dispensary in Lushoto district, Bumbuli council, Tanga region.',
     individualororganisationDonationDiscr:'Installation of rainwater harvesting tanks at three schools and three dispensaries in need in Bumbuli council, Lushoto district, Tanga region',
+    leadershipCapacity: 'Leadership Capacity Building',
+    leadershipCapacityDiscr: 'Empowering leaders through training, mentorship, and community engagement.',
     seeMore: 'See More',
     formRegister:'Register',
-    environmentalConservation:'Environmental Conservation',
-    environmentalConservationDiscr:'Environmental Conservation is a vital initiative focused on protecting our planet by reducing pollution, preserving natural resources, and encouraging sustainable practices. Through collective action and awareness, this program helps safeguard ecosystems for future generations.',
-    leadershipCapacity:'Leadership Capacity Building',
-    leadershipCapacityDiscr:'Leadership Capacity Building empowers leaders with the skills and vision to drive growth, inspire teams, and navigate change effectively. Strengthen your organization by cultivating resilient, forward-thinking leaders ready to tackle tomorrow’s challenges.',
+    environmentalConservation: 'Environmental Conservation.',
+    environmentalConservationDiscr: 'planting 24,000 trees in Dodoma region.',
     
     //bikerider
     bodaInfo:'Bodaboda Rider Informations',
@@ -132,24 +309,24 @@ const translations = {
     bikeNumber:'Bike Number',
     license:'License',
     submit:'Submit',
-    closec:'Close',
-
-    //leadership capacity form
-    leadershipCapacityFormTitle:'Leadership Capacity Building Training Registration',
-
+    
     //popup msg
     failData:'Failed to save your data',
     dataSuccess:'Data Sent Successfully!',
     licenseExists:'License Already Exists',
     
+    // Form Messages
+    successData: 'Successfully registered! We will contact you soon.',
+    submitting: 'Submitting...',
+    registrationError: 'Failed to register. Please try again.',
+    licenseError: 'License number already exists. Please use a different number.',
+    
     // Gallery Section
     galleryi:'Gallery',
     galleryDescription:'A visual journey through our work and culture',
-
     
     // Impact Section
     impactTitle: 'Our Impact',
-    ourProjectDiscr:'Showcasing our best work and innovative solutions',
     impactDescription: 'Making real change in communities',
     peopleHelped: 'People Helped',
     communitiesServed: 'Communities Served',
@@ -215,7 +392,7 @@ const translations = {
     projects: 'Miradi',
     gallery: 'Picha',
     contact: 'Wasiliana',
-    getStarted: 'Anza Sasa',
+    getStarted: 'Anza sasa',
     aboutUs: 'Kuhusu Sisi',
     quickLinks: 'Viungo vya Haraka',
     contactUs: 'Wasiliana Nasi',
@@ -241,6 +418,7 @@ const translations = {
     heroSubtitle: '"Kuwezesha Jamii, Kuondoa Umaskini, Kuhakikisha Usawa."',
     exploreProjects: 'Chunguza Miradi Yetu',
     learnMore: 'Jifunze Zaidi',
+    ViewRegistration: 'Ona Usajili',
     
     // About Section
     aboutTitle: 'Kuhusu Sisi',
@@ -255,7 +433,10 @@ const translations = {
     donors: 'Watoa misaada',
     ngos: 'Mashirika yasio ya kiserikari',
     individual: 'Mtu binafsi',
-
+    ourValue: 'Kauli mbiu',
+    valueStatement: 'Jiunge Nasi',
+    close: 'Funga',
+    
     // Services Section
     servicesTitle: 'Malengo',
     servicesDescription: 'Suluhisho kamili kwa mahitaji yako',
@@ -264,7 +445,8 @@ const translations = {
     economicEmpowerment: 'Uwezeshaji Kiuchumi',
     communityDevelopment: 'Maendeleo ya Jamii',
     skillsTraining: 'Mafunzo ya Ujuzi',
-    waterSanitation: 'Maji na Usafi',
+    waterSanitation: 'Washiriki wa utoaji wa maji, usafi wa mazingira, afya, na usafi wa mwili',
+    waterSanitationDiscr: 'uhakikisha jamii zinapata maji safi na vyoo vizuri. Wanahimiza mazoea ya afya ya kuzuia magonjwa na kuboresha ustawi wa watu. Kazi yao inajumuisha elimu, ujenzi wa miundombinu, na ushawishi wa sera kwa ajili ya mbinu endelevu.',
     websiteDevelopment: 'Uundaji wa Tovuti',
     charityServices: 'Afya ya meno na usafi',
     digitalMarketing: 'Kukuza uelewa juu ya ulinzi na uhifadhi wa mazingira',
@@ -278,10 +460,9 @@ const translations = {
     designDevelopmentDiscr: 'Hukuza mila, sanaa, na turathi ili kuimarisha utambulisho wa jamii. Kuhimiza ubadilishanaji wa kitamaduni kunakuza maelewano na miunganisho ya kimataifa kupitia uzoefu wa pamoja.',
     consultancyDiscr: 'Kuwawezesha vijana na wanawake kwa ujuzi, kazi, na fursa za ujasiriamali ili kufikia uhuru wa kifedha, huku kuhakikisha upatikanaji sawa wa rasilimali, elimu, na ajira ya haki ili kuimarisha usalama wao wa kiuchumi na athari za kijamii.',
     
-
     // Projects Section
     ourProjects: 'Miradi Yetu',
-    ourProjectDiscr:'Kuonesha kazi zetu bora na masuluhisho ya kiubunifu',
+    ourProjectDiscr:'Tambua dhamira ya mradi wetu',
     bodabodaSmart: 'Bodaboda Smart',
     charityService: 'Huduma za Hisani',
     dropshipping:'Upatikanaji wa maji safi',
@@ -290,13 +471,13 @@ const translations = {
     charityServiceDiscr:'Kufanya matibabu ya meno na kugawa miswaki kwenye shule sita za serikali katika wilaya ya Lushoto Halmashauri ya Bumbuli.',
     dropshippingDiscr:'Kununua vifaa vya maji ,kwa ajili ya upatikanaji wa maji safi kwenye shule ya sekondari na zahanati ya kwenguruwe wilayani Lushoto halmashauri ya Bumbuli mkoani Tanga.',
     individualororganisationDonationDiscr:'Uwekaji wa matenki kwa ajili kuvuna maji ya mvua kwenye shule tatu  na zahanati tatu zenye uhitaji kwenye halmashauri ya Bumbuli wilayani Lushoto mkoani Tanga .',
+    leadershipCapacity: 'Kuandaa Viongozi',
+    leadershipCapacityDiscr: 'Kuwezesha viongozi kupitia mafunzo, ushauri, na ushirikiano wa jamii.',
     seeMore: 'Ona zaidi',
     formRegister: 'Jisajili',
-    environmentalConservation:'Uhifadhi wa Mazingira',
-    environmentalConservationDiscr: 'Uhifadhi wa Mazingira ni mpango muhimu unaolenga kulinda sayari yetu kwa kupunguza uchafuzi, kuhifadhi rasilimali asili, na kuhimiza mazoea endelevu. Kupitia hatua za pamoja na uhamasishaji, mpango huu husaidia kulinda mifumo ya ikolojia kwa vizazi vijavyo.',
-    leadershipCapacity:'Kujenga Uwezo wa Uongozi',
-    leadershipCapacityDiscr:'Ujenzi wa uwezo wa uongozi huwapa viongozi ujuzi na maono ya kuendesha ukuaji, kuhamasisha timu, na kukabiliana na mabadiliko kwa ufanisi. Imarisha shirika lako kwa kukuza viongozi wenye ustahimilivu na wenye mtazamo wa mbele, walio tayari kukabiliana na changamoto za kesho.',
-
+    environmentalConservation: 'Utunzaji wa mazingira.',
+    environmentalConservationDiscr: 'Upandaji wa miti 24,000 katika mkoa wa Dodoma nchini Tanzania.',
+    
     //bikerriderform
     bodaInfo:'Taarifa za Dereva Bodaboda',
     firstName:'Jina la Kwanza',
@@ -316,21 +497,22 @@ const translations = {
     bikeNumber:'Namba ya bodaboda',
     license:'Leseni',
     submit:'Tuma',
-    close:'Funga',
-
-  //leadership capacity form
-  leadershipCapacityFormTitle: 'Usajili wa Mafunzo ya Kuimarisha Uwezo wa Uongozi',
-
-  
-
-  //popup msg
-  failData:'Taarifa hazijatumwa',
-  dataSuccess:'Taarifa Zimetumwa Kikamilifu!',
-  licenseExists:'Leseni Imetumika',
-
+    
+    //popup msg
+    failData:'Taarifa hazijatumwa',
+    dataSuccess:'Taarifa Zimetumwa Kikamilifu!',
+    licenseExists:'Leseni Imetumika',
+    
+    // Form Messages
+    successData: 'Umeandikishwa kwa mafanikio! Tutakukaribisha hivi karibuni.',
+    submitting: 'Tunatuma...',
+    registrationError: 'Kuandikishwa kumeshindwa. Tafadhali jaribu tena.',
+    licenseError: 'Nambari ya leseni tayari imetumika. Tafadhali tumia nambari tofauti.',
+    
     //gallery
     galleryi:'Picha',
     galleryDescription:'Picha za kazi zetu',
+    
     // Impact Section
     impactTitle: 'Athari Zetu',
     impactDescription: 'Kuleta mabadiliko halisi katika jamii',

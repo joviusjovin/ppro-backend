@@ -1795,7 +1795,7 @@ app.get('/health', (req, res) => {
 // Root endpoint
 app.get('/', (req, res) => {
   res.status(200).send({ 
-    message: 'Welcome to the Bike Rider API!',
+    message: 'Welcome to the PPRO Management System API!',
     timestamp: new Date().toISOString()
   });
 });
